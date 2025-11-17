@@ -1,0 +1,32 @@
+
+:root {
+
+  --color-background: #253334;
+
+  --color-primary: #fff;
+  --color-bg-card: #F7F3F0;
+  --color-primary-inverted: #000;
+  --color-inactive: rgba(255, 255, 255, 0.5);
+  --color-divider: #3A5051;
+  --color-button-primary: #7C9A92;
+  --font-main: 'Alegreya, sans-serif';
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html body {
+  background: var(--color-background);
+  color: var(--color-primary);
+  font-family: var(--font-main), 'sans-serif';
+  font-size: 14px;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
