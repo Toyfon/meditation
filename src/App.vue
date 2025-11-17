@@ -1,11 +1,31 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import MeditationsList from '@/components/meditations-list/meditations-list.vue'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <main class="app">
+    <div class="profile"></div>
+    <div class="content">
+      <MeditationsList/>
+    </div>
+
+
+  </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+.app {
+  display: flex;
+  gap: 100px;
+  max-width: 1440px;
+
+  margin: 60px auto 0; /* упрощённый синтаксис */
+}
+
+
+@media screen and (max-width: 1440px) {
+  .app {
+    max-width: 1280px;
+  }
+}
+</style>
