@@ -45,6 +45,7 @@ onMounted(() => {
   font-weight: 500;
   word-break: break-word;
   border-radius: 20px;
+  max-width: 340px;
 }
 .meditations-list__item__title {
   font-size: 25px;
